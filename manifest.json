@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "CastleSearcher",
+  "version": "1.0",
+  "description": "Hyperlinks Castle Learning questions to Google Search.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.castlelearning.com/*"],
+      "js": ["castle_searcher.js"]
+    }
+  ],
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  }
+}
